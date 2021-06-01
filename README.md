@@ -11,8 +11,15 @@ Class that allows knowing if a vehicle with a certain license plate is allowed t
 ## Example
 Checking if a vehicle is allowed.
 
-`>>> a = PicoPlaca('ABC211','31/05/2021','7:00')`
+`>>> import PicoPlaca as pp`
 
-`>>> a.isAllowed()`
+`>>> a = pp.PicoPlaca('ABC211','31/05/2021','7:00')`
+
+`>>> a.message()`
 
 `The vehicle is NOT allowed to road`
+
+## Automated testing
+Usign [pytest!](https://docs.pytest.org/en/6.2.x/)
+
+`pytest test.py`
