@@ -26,7 +26,7 @@ class PicoPlaca:
   --------
   Checking if a vehicle is allowed.
    >>> a = PicoPlaca('ABC211','31/05/2021','7:00')
-   >>> a.isAllowed()
+   >>> a.message()
    The vehicle is NOT allowed to road
 
   '''
