@@ -1,6 +1,6 @@
 # Pico-Placa
 
-Class that allows knowing if a vehicle with a certain license plate is allowed to transit on a certain day and time according to the restrictions in the city of Quito-Ecuador.  
+Class that allows knowing if a vehicle with a certain license plate is allowed to transit on a certain day and time according to the restrictions in the city of Quito-Ecuador. Written by **Gabriel Salvador**.
 
 ## Parameters
 
